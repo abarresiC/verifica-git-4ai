@@ -1,39 +1,27 @@
 # verifica-git-4ai
 
-Tutto deve essere fatto da terminale.
-
-Ogni punto richiesto deve corrispondere ad almeno 1 commit (commit separati, non uno solo alla fine).
-
-Il repository verrà valutato guardando file + cronologia commit.
-
-Obiettivo
-
+Fare i comandi git da terminale
 Completare le attività richieste e pubblicare tutto su GitHub con git push.
 
-PARTE A — Operazioni Git (obbligatorie)
-A1) Clonazione (non si consegna, ma serve farla)
+**1) Clona il repository sul PC e entra nella cartella del progetto.**
 
-Clona il repository sul PC e entra nella cartella del progetto.
+**2) Compilazione informazioni:**
 
-A2) Compilazione informazioni (1 commit)
+      Apri il file: progetto/info.txt
+      
+      e aggiungi in cima:
+   
+      Nome e cognome
+      
+      Classe
+      
+      Data
+      
+      Commit richiesto
+      
+      Messaggio: A2 - Compilazione info
 
-Apri il file:
-
-progetto/info.txt
-
-e aggiungi in cima:
-
-Nome e cognome
-
-Classe
-
-Data
-
-Commit richiesto
-
-Messaggio: A2 - Compilazione info
-
-A3) File personale (1 commit)
+**3) File personale:**
 
 Crea il file:
 
@@ -45,11 +33,9 @@ Differenza tra git add e git commit
 
 Differenza tra git push e git pull
 
-Commit richiesto
+Commit richiesto: File personale
 
-Messaggio: A3 - File personale
-
-A4) Modifica dati (1 commit)
+**4) Modifica dati** 
 
 Nel file progetto/dati.txt:
 
@@ -57,21 +43,17 @@ modifica una riga esistente
 
 aggiungi una nuova riga in fondo
 
-Commit richiesto
+Commit richiesto: Aggiornamento dati
 
-Messaggio: A4 - Aggiornamento dati
+**5) Cronologia** 
 
-A5) Cronologia (1 commit)
+Esegui un comando per visualizzare gli ultimi commit in forma breve.
 
-Esegui un comando per visualizzare gli ultimi commit in forma breve (es. oneline).
-
-Copia/incolla l’output (almeno gli ultimi 5 commit) dentro:
+Copia/incolla l’output dentro:
 
 progetto/log.txt
 
-Commit richiesto
-
-Messaggio: A5 - Inserito log
+Commit richiesto: Inserito log
 
 PARTE B — Correzione codice (obbligatoria, da terminale)
 
