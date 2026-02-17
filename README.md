@@ -3,6 +3,8 @@
 Fare i comandi git da terminale
 Completare le attività richieste e pubblicare tutto su GitHub con git push.
 
+**PARTE 1 - Comandi Git** 
+
 **1) Clona il repository sul PC e entra nella cartella del progetto.**
 
 **2) Compilazione informazioni:**
@@ -23,39 +25,39 @@ Completare le attività richieste e pubblicare tutto su GitHub con git push.
 
 **3) File personale:**
 
-Crea il file:
-
-progetto/<cognome_nome>.txt
-
-Dentro scrivi (minimo 4 righe):
-
-Differenza tra git add e git commit
-
-Differenza tra git push e git pull
-
-Commit richiesto: File personale
+      Crea il file:
+      
+      progetto/<cognome_nome>.txt
+      
+      Dentro scrivi (minimo 4 righe):
+      
+      Differenza tra git add e git commit
+      
+      Differenza tra git push e git pull
+      
+      Commit richiesto: File personale
 
 **4) Modifica dati** 
 
-Nel file progetto/dati.txt:
-
-modifica una riga esistente
-
-aggiungi una nuova riga in fondo
-
-Commit richiesto: Aggiornamento dati
+      Nel file progetto/dati.txt:
+      
+      modifica una riga esistente
+      
+      aggiungi una nuova riga in fondo
+      
+      Commit richiesto: Aggiornamento dati
 
 **5) Cronologia** 
 
-Esegui un comando per visualizzare gli ultimi commit in forma breve.
+      Esegui un comando per visualizzare gli ultimi commit in forma breve.
+      
+      Copia/incolla l’output dentro:
+      
+      progetto/log.txt
+      
+      Commit richiesto: Inserito log
 
-Copia/incolla l’output dentro:
-
-progetto/log.txt
-
-Commit richiesto: Inserito log
-
-PARTE B — Correzione codice (obbligatoria, da terminale)
+**PARTE 2 — Correzione codice** 
 
 Il file programma/main.c contiene 1 errore di compilazione e 1 errore logico.
 
