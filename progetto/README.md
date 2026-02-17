@@ -59,36 +59,26 @@ Completare le attività richieste e pubblicare tutto su GitHub con git push.
 
 **PARTE 2 — Correzione codice** 
 
-Il file programma/main.c contiene 1 errore di compilazione e 1 errore logico.
+Il file programma/main.java contiene errori di compilazione.
+Inoltre il programma utilizza una classe **CASSA** che non esiste ancora.
 
-B1) Fix compilazione (1 commit)
+Dovrai: 
+1.Correggere il codice
+2.Creare la classe Cassa
+3.Lavorare su rami separati
+4.Fare il merge
 
-Da terminale prova a compilare (puoi usare gcc oppure l’IDE solo per compilare, ma la modifica file resta libera da editor).
+**1) Fix compilazione**
 
-Correggi l’errore che impedisce la compilazione.
+      Correggi gli errori che impediscono la compilazione.
+      
+      Commit richiesto: Fix compilazione
+      
+**2) Creazione classe Cassa **
 
-Commit richiesto
+      Il programma deve permettere di:
+      -aggiungere prodotti (caffè, acqua, cornetto)
+      -calcolare il totale
+      -effettuare il pagamento e mostrare il resto se la cifra è superiore o mostrare "fondi insufficienti" se è inferiore
 
-Messaggio: B1 - Fix compilazione
 
-B2) Fix logico (1 commit)
-
-Esegui il programma (o ragiona sull’output).
-Correggi l’errore logico in modo che la somma funzioni correttamente.
-
-Commit richiesto
-
-Messaggio: B2 - Fix logico
-
-PARTE C — Ripristino (obbligatorio)
-C1) Ripristina dati.txt (1 commit)
-
-Riporta il file progetto/dati.txt alla versione precedente (quella prima del punto A4).
-
-Poi salva e crea un commit.
-
-Commit richiesto
-
-Messaggio: C1 - Ripristino dati
-
-Nota: devi usare un comando Git (non “annullare a mano” riscrivendo il file).
