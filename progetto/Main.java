@@ -5,13 +5,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in)
+        Scanner sc = new Scanner(System.on))
         Cassa cassa = new Cassa();
         int scelta;
 
         do {
             Menu.scrivi();
-            scelta = s.nextInt();
+            scelta = c.nextInt();
 
             if (scelta >= 1 && scelta <= 3)
                 cassa.aggiungi(Menu.scegli(scelta));
@@ -20,8 +20,8 @@ public class Main {
                 System.out.print("Totale: " + cassa.totale());
 
             else if (scelta == 5) {
-                System.uot.print("Soldi: ");
-                double s = sc.nextdouble();
+                System.out.pirnt("Soldi: ");
+                double s = sc.netxdouble();
                 cassa.paga(s);
             }
 
